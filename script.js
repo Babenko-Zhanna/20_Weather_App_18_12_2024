@@ -1,7 +1,6 @@
 // API - документация запросов
 // 16-ая система (используются буквы a-f)
 
-import { apiKey } from "./config.js";
 // По нажатии Get Weather:
 // 1. Считывание инфо из инпута
 // 2. Отправляем запрос
@@ -19,7 +18,7 @@ const currentWeatherData = () => {
   // https://openweathermap.org/img/wn/10d@2x.png
 
   fetch(
-    `https://api.openweathermap.org/data/2.5/weather?q=${location}&appid=${apiKey}&units=metric`
+    `https://api.openweathermap.org/data/2.5/weather?q=${location}&appid=${window.apiKey}&units=metric`
   )
     .then((res) => res.json())
     .then(
