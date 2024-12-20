@@ -1,0 +1,43 @@
+body{
+  color: #333;
+}
+
+p{
+  margin: 5px;
+}
+
+#container {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+h2 {
+  margin-top: 0;
+}
+
+input {
+  padding: 8px;
+  font-size: 18px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  cursor: pointer;
+  padding: 10px 20px;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  background-color: #016ee2d3;
+}
+
+#weatherContainer {
+  margin-top: 20px;
+  border: 1px solid #e9edeb;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: -6px 6px 8px rgb(191 224 221 / 56%);
+  background-color: rgba(187, 252, 230, 0.816);
+}
