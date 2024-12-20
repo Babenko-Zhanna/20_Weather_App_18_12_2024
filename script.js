@@ -1,8 +1,7 @@
 // API - документация запросов
 // 16-ая система (используются буквы a-f)
 
-const apiKey = "8ce1862ed948a6f7547898cc9bc81ec0";
-
+import { apiKey } from "./config.js";
 // По нажатии Get Weather:
 // 1. Считывание инфо из инпута
 // 2. Отправляем запрос
@@ -109,9 +108,9 @@ function displayWeather(weather) {
 const arr = [1, 2, 3]; // Кортеж (массив с заранее известной длиной и элементами))
 const [_, , third] = arr;
 
-// git config --global user.name "Babenko-Zhanna"
+// git config --global user.name "Babenko-Zhanna" - настройка имени
 // к кому обращаемся (гит), что делаем (настраиваем), как настраиваем, какое свойство настраиваем и значение
-// git config --global user.email "babenko.zh@gmail.com"
+// git config --global user.email "babenko.zh@gmail.com" настройка email
 
 // Генерация пары RSA/SSH
 // Выполняется один в “начале карьере”
@@ -125,3 +124,15 @@ const [_, , third] = arr;
 // git init - инициализировали пустой репозиторий (.git) в папке (локальный)
 // git add index.html - добавить файл в репозиторий
 // git add . - добавить все файлы
+
+// git commit -m "weather app" (сделать коммит)
+// => 
+// [main (root-commit) e2dbf20] weather app - с какой веткой идет работа (main)
+//  3 files changed, 195 insertions(+)
+//  create mode 100644 index.html - что добавлено
+//  create mode 100644 script.js
+//  create mode 100644 style.css  
+
+// git remote add origin https://github.com/Babenko-Zhanna/20_Weather_App_18_12_2024.git
+// git branch -M main
+// git push -u origin main
