@@ -18,7 +18,7 @@ const currentWeatherData = () => {
   // https://openweathermap.org/img/wn/10d@2x.png
 
   fetch(
-    `https://api.openweathermap.org/data/2.5/weather?q=${location}&appid=${window.apiKey}&units=metric`
+    `https://api.openweathermap.org/data/2.5/weather?q=${location}&appid=${window.API_KEY}&units=metric`
   )
     .then((res) => res.json())
     .then(
